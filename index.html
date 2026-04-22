@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher's Personal Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef7f7;
+            color: #be185d;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #f472b6, #ec4899);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(236, 72, 153, 0.1);
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #f472b6;
+            margin: 2rem auto;
+            display: block;
+            box-shadow: 0 4px 8px rgba(244, 114, 182, 0.2);
+        }
+        
+        .about-section {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .about-section h2 {
+            color: #ec4899;
+            margin-bottom: 1rem;
+            font-weight: 300;
+        }
+        
+        .video-section {
+            text-align: center;
+            margin-top: 3rem;
+            padding: 2rem 0;
+        }
+        
+        .video-section h2 {
+            color: #ec4899;
+            margin-bottom: 1.5rem;
+            font-weight: 300;
+        }
+        
+        .video-container {
+            max-width: 560px;
+            margin: 0 auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 16px rgba(236, 72, 153, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Christopher</h1>
+    </header>
+    
+    <div class="container">
+        <img src="cherry blossom.jpeg" alt="Cherry Blossoms" class="profile-image">
+        
+        <div class="about-section">
+            <h2>About Me</h2>
+            <p>Greetings!, I'm Christopher, I am cook and I am currently going to school for cybersecurity. Welcome to my personal website where I'm going to share my thoughts, projects and experiences.</p>
+        </div>
+        
+        <div class="video-section">
+            <h2>Featured Video</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" 
+                        src="https://www.youtube-nocookie.com/embed/oWY3fW2VpjQ" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
